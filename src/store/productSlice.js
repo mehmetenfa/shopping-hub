@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { STATUS } from '../utils/status'
+import { BASE_URL } from '../utils/apiUrl'
 
 const productSlice = createSlice({
     name: 'product',

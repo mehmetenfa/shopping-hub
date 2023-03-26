@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { BASE_URL } from "../utils/apiURL";
+import { BASE_URL } from "../utils/apiUrl";
 import { STATUS } from "../utils/status";
 
 const categorySlice = createSlice({
