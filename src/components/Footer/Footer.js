@@ -3,20 +3,20 @@ import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <footer>
-      <div>
-        <div>
+    <footer className="footer py-5 bg-dark">
+      <div className="container">
+        <div className="footer-content text-white grid">
           <div className="footer-item text-center">
             <h6 className="fs-17 fw-6">Links</h6>
             <ul>
               <li>
                 <a href="/aboutus" className="fs-15">
-                  About us
+                  About Us
                 </a>
               </li>
               <li>
                 <a href="/contact" className="fs-15">
-                  Contact us
+                  Contact Us
                 </a>
               </li>
               <li>
@@ -76,18 +76,20 @@ const Footer = () => {
 
           <div className="footer-item text-center">
             <h6 className="fs-17 fw-6">Contact</h6>
-            <li>
-              <span>
-                <i className="fas fa-phone"></i>
-              </span>
-              <span className="fs-15">+678 004 5754</span>
-            </li>
-            <li>
-              <span>
-                <i className="fas fa-envelope"></i>
-              </span>
-              <span className="fs-15">info@shophub.com</span>
-            </li>
+            <ul>
+              <li>
+                <span>
+                  <i className="fas fa-phone"></i>
+                </span>
+                <span className="fs-15">+678 004 5754</span>
+              </li>
+              <li>
+                <span>
+                  <i className="fas fa-envelope"></i>
+                </span>
+                <span className="fs-15">info@shophub.com</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
