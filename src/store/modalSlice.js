@@ -16,5 +16,5 @@ const modalSlice = createSlice({
   },
 });
 
-export const { setMotalData, setIsModalVisible } = modalSlice.actions;
+export const { setModalData, setIsModalVisible } = modalSlice.actions;
 export default modalSlice.reducer;
